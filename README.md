@@ -4,7 +4,7 @@
 
 This project applies the SKA entropy learning framework to heart rate variability (HRV) time series, aiming to discover new informational regimes and subtle physiological patterns not accessible with classical statistics or supervised machine learning.
 
----
+
 
 ## Features
 
@@ -13,7 +13,7 @@ This project applies the SKA entropy learning framework to heart rate variabilit
 - Visualization tools for HRV time series, entropy, and state transitions
 - Open-source sample code, datasets, and reproducible figures
 
----
+
 
 ## Quick Start
 
@@ -23,13 +23,13 @@ This project applies the SKA entropy learning framework to heart rate variabilit
    `pip install -r requirements.txt`
 3. Run analysis notebook or script (see `notebooks/` or `scripts/`)
 
----
+
 
 ## Example Figures
 
 > _Add here a key HRV entropy trajectory or regime plot demonstrating unique SKA insights._
 
----
+
 
 ## Why SKA for HRV?
 
@@ -37,7 +37,7 @@ This project applies the SKA entropy learning framework to heart rate variabilit
 - **Quantifies entropy** even during stable heart rate segments
 - **Reveals subtle physiological transitions** invisible to classical HRV analysis
 
----
+
 
 ## Collaboration & Citation
 
@@ -70,12 +70,12 @@ Bouarfa Mahi. "Structured Knowledge Accumulation: An Autonomous Framework for La
 
 **Contact:** Bouarfa Mahi — _especially interested in collaboration with those having access to large HRV datasets or clinical validation environments._
 
----
+
 
 ## License
 
 MIT
 
----
+
 
 *SKA-HRV-Analysis bridges the gap between modern information theory and physiological data science.*

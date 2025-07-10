@@ -1,12 +1,10 @@
 # SKA Heart Rate Variability
 
-
-
 **Heart Rate Variability (HRV) Exploration with Structured Knowledge Accumulation (SKA) and Entropy-Based Learning**
 
 This project applies the SKA entropy learning framework to heart rate variability (HRV) time series, aiming to discover new informational regimes and subtle physiological patterns not accessible with classical statistics or supervised machine learning.
 
-
+---
 
 ## Features
 
@@ -29,26 +27,55 @@ This project applies the SKA entropy learning framework to heart rate variabilit
 
 ## Example Figures
 
-> *(Include a key HRV entropy trajectory or regime plot here!)*
+> _Add here a key HRV entropy trajectory or regime plot demonstrating unique SKA insights._
 
 ---
 
 ## Why SKA for HRV?
 
-- Detects unsupervised regime changes in HRV
-- Quantifies entropy even in periods of stable heart rate
-- Reveals subtle physiological transitions that are invisible to conventional HRV analysis
+- **Unsupervised regime change detection** in HRV
+- **Quantifies entropy** even during stable heart rate segments
+- **Reveals subtle physiological transitions** invisible to classical HRV analysis
 
+---
 
 ## Citation & Collaboration
 
-If you use or build on this project, please cite the main SKA paper ([arXiv:2503.13942](https://arxiv.org/abs/2503.13942)) and reach out for collaborative research—especially if you have medical/clinical HRV datasets!
+### 👥 **Collaboration Call: HRV + Machine Learning Researchers**
 
+We seek collaboration with **established HRV researchers who have published in HRV analysis and machine learning** to explore SKA's entropy-based regime discovery in physiological time series.
+
+#### What We Bring:
+- **Novel SKA entropy framework:** Proven in market regime detection, now applied to HRV
+- **Real-time, beat-by-beat entropy computation**
+- **Detection of hidden regime cycling** and subtle state transitions
+- **Open-source, reproducible code and methodology**
+
+#### Ideal Collaborator:
+- **Published HRV researchers** with clinical/medical datasets
+- **Machine learning expertise** in time series or physiological signal processing
+- **Interest in information-theoretic approaches** to biosignals
+- **Willing to co-author research papers/validation studies**
+
+#### Example Collaboration Areas:
+- Clinical validation on cardiac datasets (ICU, ambulatory, sleep, etc.)
+- Comparison of SKA vs. traditional HRV metrics (RMSSD, pNN50, SDNN, etc.)
+- Applications in real-time monitoring: sports, critical care, neurocardiology
+- Methodology papers: Information theory meets physiology
+
+#### Citation
+
+If you use or extend this project, please cite:  
+Bouarfa Mahi. "Structured Knowledge Accumulation: An Autonomous Framework for Layer-Wise Entropy Reduction in Neural Learning." [arXiv:2503.13942](https://arxiv.org/abs/2503.13942)
+
+**Contact:** Bouarfa Mahi — _especially interested in collaboration with those having access to large HRV datasets or clinical validation environments._
+
+---
 
 ## License
 
 MIT
 
+---
 
-
-*Contact: Bouarfa Mahi*
+*SKA-HRV-Analysis bridges the gap between modern information theory and physiological data science.*

@@ -39,7 +39,7 @@ This project applies the SKA entropy learning framework to heart rate variabilit
 
 ---
 
-## Citation & Collaboration
+## Collaboration & Citation
 
 ### 👥 **Collaboration Call: HRV + Machine Learning Researchers**
 

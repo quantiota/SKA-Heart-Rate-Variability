@@ -20,7 +20,7 @@ This project applies the SKA entropy learning framework to heart rate variabilit
 ## Quick Start
 
 1. Clone this repo  
-   `git clone https://github.com/YOUR-USER/SKA-HRV-Analysis.git`
+   `git clone https://github.com/quantiota/SKA-Heart-Rate-Variability.git`
 2. Install requirements  
    `pip install -r requirements.txt`
 3. Run analysis notebook or script (see `notebooks/` or `scripts/`)

@@ -78,4 +78,4 @@ MIT
 
 
 
-*SKA-HRV-Analysis bridges the gap between modern information theory and physiological data science.*
+*SKA-HRV-Analysis bridges the gap between modern information theory and physiological data science*

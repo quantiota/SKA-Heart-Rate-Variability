@@ -68,4 +68,3 @@ BITalino USB → Raw ECG samples → SKA entropy calculation → HRV regime dete
 
 
 
-*SKA + BITalino bridges physiological data and information-theoretic learning in real-time.*

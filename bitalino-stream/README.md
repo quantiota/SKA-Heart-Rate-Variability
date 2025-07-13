@@ -60,9 +60,9 @@ python ska_stream.py
 
 ## Data Flow
 
-```text
+
 BITalino USB → Raw ECG samples → SKA entropy calculation → HRV regime detection → QuestDB logging → Grafana visualization
-```
+
 
 
 

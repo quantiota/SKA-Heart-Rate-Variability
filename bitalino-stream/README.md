@@ -58,6 +58,21 @@ python ska_stream.py
 
 
 
+## Classical HRV Discards 99% of the ECG Signal
+
+Most HRV research reduces the ECG to just **RR intervals** — losing nearly all waveform complexity:
+
+* Only beat-to-beat intervals are analyzed
+* Transient changes and fine-scale dynamics are ignored
+* Entropy cannot be measured directly
+
+**SKA is different**:
+
+* Operates on **raw, high-resolution ECG**
+* Tracks **information flow and entropy** in real time
+* Reveals **hidden physiological transitions** not accessible via classical HRV
+
+
 ## Data Flow
 
 

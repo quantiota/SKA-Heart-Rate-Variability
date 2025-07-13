@@ -35,8 +35,8 @@ python ska_stream.py
 ## Output
 
 * Logs ECG signal + entropy
-* Sends SKA state to QuestDB (optional)
-* Grafana dashboard integration (optional)
+* Sends SKA state to QuestDB
+* Grafana dashboard integration
 
 
 
@@ -61,7 +61,7 @@ python ska_stream.py
 ## Data Flow
 
 ```text
-BITalino USB → Raw ECG samples → SKA entropy calculation → HRV regime detection
+BITalino USB → Raw ECG samples → SKA entropy calculation → HRV regime detection → QuestDB logging → Grafana visualization
 ```
 
 Future extensions: Stream entropy values to QuestDB → Visualize transitions on Grafana dashboard

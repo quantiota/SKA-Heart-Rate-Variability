@@ -64,7 +64,7 @@ python ska_stream.py
 BITalino USB → Raw ECG samples → SKA entropy calculation → HRV regime detection → QuestDB logging → Grafana visualization
 ```
 
-Future extensions: Stream entropy values to QuestDB → Visualize transitions on Grafana dashboard
+
 
 
 

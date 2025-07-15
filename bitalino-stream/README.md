@@ -104,7 +104,7 @@ Grafana (Live Visualization)
 
 ##  Integration Goals
 
-This module is part of the larger **SKA-HRV** initiative to redefine how physiological data is analyzed, monitored, and understood using entropy-first learning frameworks.
+This module is part of the broader SKA-HRV initiative, aiming to redefine the analysis and interpretation of physiological time series using entropy-first, forward-only learning. By integrating real-time data acquisition, unsupervised regime detection, and dynamic entropy tracking, SKA-HRV opens new frontiers for understanding the hidden structure of autonomic regulation.
 
 
 

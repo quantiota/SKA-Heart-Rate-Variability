@@ -1,31 +1,34 @@
 # BITalino Integration for SKA-HRV
 
-This folder contains the code and setup instructions to stream ECG data from a BITalino (r)evolution Board Kit via **USB** and apply real-time **Structured Knowledge Accumulation (SKA)** learning.
+**Real-Time ECG Entropy Learning with Structured Knowledge Accumulation (SKA)**
 
+This module connects the **BITalino (r)evolution Board Kit** via USB for real-time ECG signal acquisition, directly applying the **SKA entropy learning framework** to uncover hidden physiological regimes in raw heart signals.
 
 
 ## Requirements
 
-* BITalino (r)evolution Board Kit (BLE/BT with USB)
-* Python 3.8+
-* `pybitalino` library
+- BITalino (r)evolution Board Kit (BLE/BT with USB cable)
+- Python ≥ 3.8
+- `pybitalino` library (`pip install pybitalino`)
+- SKA HRV processing modules (from this repo)
+- [Optional] QuestDB + Grafana setup for visualization
 
 
 
-## Connection
+## Connection Setup
 
-Use USB connection for stable, lossless data:
+> For stable real-time processing, **USB** is preferred over BLE (Bluetooth), which may drop packets.
 
-* Linux: `/dev/ttyUSB0`
-* Windows: `COM3` or similar
+- **Linux**: `/dev/ttyUSB0`
+- **Windows**: `COM3` or similar (check Device Manager)
 
 Avoid BLE due to packet drops in real-time streaming.
 
 
 
-## Quick Start
-
 ```bash
+git clone https://github.com/quantiota/SKA-Heart-Rate-Variability.git
+cd SKA-Heart-Rate-Variability/bitalino
 pip install -r requirements.txt
 python ska_stream.py
 ```
